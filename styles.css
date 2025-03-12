@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-image: url("./attachments/green-hill.jpg");
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;  
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+
+#hint{
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    border-radius: 5px;
+}
+
+button{
+    position: fixed;
+    top: 50%;
+    left: 5%;
+    width: 200px;
+    height: 200px;
+    cursor: pointer; 
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+
+#barra{
+    position: fixed;
+    top: 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, rgba(180, 176, 176, 0.8) 100%), url("./attachments/1000_F_347765449_fcms7eFJ4wEnDVaQQ8VdH7iHgdoKXcl2.jpg");
+    height: 10%;
+    width: 100%;
+}
+
+#tarjeta{
+    background: rgb(233, 168, 245);
+    background-image: url("./attachments/red-brick-wall-texture-background-photo.jpeg");
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #2c3e50;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 540px;
+    color: aliceblue;
+}
+.nota{
+    width: 300px;
+    height: 300px;
+    background-image: url("./attachments/nota.png");
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat; 
+    position: relative; 
+}
+
+.textnota{
+    position: absolute; 
+    top: 25%; 
+    left: 20%;
+    padding: 5px;
+    border-radius: 5px;}
+
+#container{
+    position: fixed;
+    top: 7%;
+    left: 1%;
+}
+
+.bold{
+font-weight: bold;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    color: #222;
+}
+
+p {
+    font-weight: 300;
+}
